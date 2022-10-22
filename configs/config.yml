@@ -1,7 +1,7 @@
 db:
   port: 5432
   sslmode: disable
-  host:   165.232.68.67
+  host:   localhost
   username: postgres
   dbname: postgres
 
@@ -16,15 +16,15 @@ grpc:
 
 grpcFD:
   port: 58081
-  host: 165.232.68.67
+  host: localhost
 
 grpcCS:
   port: 8091
-  host: 159.223.1.135
+  host: localhost
 
 grpcAuth:
   port: 8090
-  host: 159.223.1.135
+  host: localhost
 
 fileStorage:
   Endpoint: fra1.digitaloceanspaces.com
